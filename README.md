@@ -71,3 +71,9 @@
   <b>2. </b>  C : Class<br>
   <b>3. </b>  E : Element<br>
   <b>4. </b>  M : Comment<br>
+
+## Some of the behaviours(functions) in angularJs are:
+- Compile
+- controller
+- pre-link
+- post-link
