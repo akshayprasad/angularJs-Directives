@@ -64,3 +64,10 @@
   And if isolated scope property changes, then it will update the property that exists in parent scope.
 
   <b>3).</b> &attr:The & symbol is used to to call an expression on the parent scope from the isolated scope.
+
+## restrict:
+- Used to define the type of the directive to be used
+  <b>1. </b> A : Attribute
+  <b>2. </b> C : Class
+  <b>3. </b> E : Element
+  <b>4. </b> M : Comment
