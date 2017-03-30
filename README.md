@@ -81,3 +81,14 @@
 
 ## Importnat Note:
 - Normally used <b>"link"</b> is <b>"post-link"</b>.
+
+## Behaviours(Functions):
+1. compile:
+   should be used when you need modify directive template, like add new expression, append another directive inside this directive…those    things . 
+   
+2. controller:
+   is used when you need to share or reuse $scope data. Or when you want directive interactive with each other.
+
+3. link:
+   is the function which used when you need to attach event handler, modify DOM.
+    
