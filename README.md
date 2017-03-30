@@ -65,7 +65,7 @@
 
   <b>3).</b> &attr:The & symbol is used to to call an expression on the parent scope from the isolated scope.
 
-## restrict:
+## restrict:<br/>
 - Used to define the type of the directive to be used
   <b>1. </b> A : Attribute
   <b>2. </b> C : Class
