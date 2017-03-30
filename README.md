@@ -67,7 +67,7 @@
 
 ## restrict:
 - Used to define the type of the directive to be used<br/>
-  <b>1. </b>    A : Attribute<br>
-  <b>2. </b>    C : Class<br>
-  <b>3. </b>    E : Element<br>
-  <b>4. </b>    M : Comment<br>
+  <b>1. </b><pre>   </pre>A : Attribute<br>
+  <b>2. </b><pre>   </pre>C : Class<br>
+  <b>3. </b><pre>   </pre>E : Element<br>
+  <b>4. </b><pre>   </pre>M : Comment<br>
