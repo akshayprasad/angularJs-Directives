@@ -53,7 +53,7 @@
   one may want to use “transclude: true”.
   
 - ### Usage of @attr, =attr, &attr:Following is details related with @attr, =attr and &attr:
-  Markup : 1 .@attr:@ binds a directive scope property to the evaluated value of the DOM attribute. 
+  Markup : 1. @attr:@ binds a directive scope property to the evaluated value of the DOM attribute. 
   If you use name="name1" or name="name1", the value of DOM attribute name is simply the string "name1". 
   If you use name="{{name}}", the value of the DOM attribute name is the interpolated value of {{name}}. Simply speaking, with @attr,   
   one can bind a isolated scope property to a DOM attribute. This sets up a one-way databinding from the parent scope to the isolated 
@@ -63,4 +63,4 @@
   So with =, you use the parent scope property name as the value of the DOM attribute.
   And if isolated scope property changes, then it will update the property that exists in parent scope.
 
-  Markup : 3.&attr:The & symbol is used to to call an expression on the parent scope from the isolated scope.
+  Markup : 3. &attr:The & symbol is used to to call an expression on the parent scope from the isolated scope.
