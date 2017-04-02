@@ -94,5 +94,5 @@
     
 ## Execution:
 ```js
-    Go to the root directory: <b>node run.js</b>
+    Go to the root directory: node run
 ```
