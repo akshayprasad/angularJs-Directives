@@ -1,0 +1,91 @@
+<div class="container-fluid">
+
+    <h1>My Directive</h1>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4>Restrict : E</h4>
+            <simple data="value"></simple>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4>Restrict : A</h4>
+            <ul>
+                <li>Home</li>
+                <li>Latest News</li>
+                <li restricted>User Administration (CSS Applied using directive)</li>
+                <li restricted>Campaign Management (CSS Applied using directive)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4>Restrict : C</h4>
+            <ul>
+                <li>Home</li>
+                <li>Latest News</li>
+                <li class="nav restricted">User Administration (CSS Applied using directive)</li>
+                <li class="nav active restricted">Campaign Management (CSS Applied using directive)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4>Restrict : E</h4>
+            <user username="user" avatar="Human" reputation="Humanity"></user>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4>Restrict : M</h4>
+            <!-- directive: comment -->
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4>Isolated Scope</h4>
+            <item name="Item-1"></item>
+            <item name="Item-2"></item>
+            <item name="Item-3"></item>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4>Directive scopes</h4>
+            <h4>attribute : '@'</h4>
+            <notification message="{{message}}"></notification>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4>Directive scopes</h4>
+            <h4>attribute : '='</h4>
+        	<book-comment text="commentText"></book-comment>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4>Directive scopes</h4>
+            <h4>attribute : '&'</h4>
+	        <like-book like="likeFunction(star)"></like-book>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4>Directive Inheritance (Mouse click)</h4>
+            <a><mouse-clicked ebook>Game of thrones (click me)</mouse-clicked></a><br/>
+	        <a><mouse-clicked magazine>PC World (click me)</mouse-clicked></a>
+        </div>
+    </div>
+
+</div>
