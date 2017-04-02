@@ -92,3 +92,7 @@
 3. link:
    is the function which used when you need to attach event handler, modify DOM.
     
+## Execution:
+```js
+    Go to the root directory: <b>node run.js</b>
+```
