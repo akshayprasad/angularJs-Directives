@@ -1,7 +1,7 @@
 # angularJs-Directives
 
 <p align="center">
-    <img  src="https://blog.semaphore-software.com/wp-content/uploads/2015/08/3-Ways-to-Master-Angular-js-Directives.jpg?136c6e">
+    <img  src="http://4dev.tech/wp-content/uploads/2015/08/AngularShieldLogo.jpg">
   <p align="center">**AngularJS-Directive**</p>
 </p>
 
